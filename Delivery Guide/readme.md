@@ -1,1 +1,1 @@
-Before starting Please review the guidance posted on the Community IP (CIP) [Delivery Guide Wiki page](/Community-IP-BOM/Delivery-Guide))
+Before starting Please review the guidance posted on the Community IP (CIP) [Delivery Guide Wiki page](https://dev.azure.com/CEandS/Community-IP-Agile-Project/_wiki/wikis/wiki-OCTO-Community-IP/250/Delivery-Guide)
