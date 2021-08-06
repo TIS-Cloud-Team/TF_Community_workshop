@@ -1,0 +1,1 @@
+Before starting Please review the guidance posted on the Community IP (CIP) [Delivery Guide Wiki page](/Community-IP-BOM/Delivery-Guide))
