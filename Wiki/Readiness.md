@@ -1,3 +1,1 @@
 For Community IP (CIP) there is no accreditation requirement for engineers to be able to deliver. In this section please offer the field....  
-
-[url](../../../../_workitems/create/Issue)
