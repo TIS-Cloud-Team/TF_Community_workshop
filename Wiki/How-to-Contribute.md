@@ -2,4 +2,4 @@ Add contact info and what the IP owner/IP Dev team expect for field contribution
 
 Point to ADO/GIT guidance wiki pages 
 
-[add issue](/_workitems/create/issue)
+[add issue](../_workitems/create/issue)
