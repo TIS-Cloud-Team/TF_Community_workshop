@@ -1,4 +1,4 @@
-**<** **Please delete before publishing >** 
+**<** _Please delete section before publishing_
 
 Note to IP Owner/IP Dev Team:
 Please use this page to document the desired outcome and customer impact this Community IP (CIP) is intended for, note this info should be for internal eyes only. 
@@ -9,4 +9,4 @@ Include information such as focus topics that will be delivered, how the IP shou
 
 Example Introduction page: Coming soon 
 
-**</** **Please delete before publishing >** 
+**/>** 
