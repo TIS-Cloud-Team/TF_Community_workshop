@@ -15,4 +15,5 @@ _Readiness Section Example_:
 **Recommended Readiness Resources:**
 - [Build apps for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/overview#:~:text=Microsoft%20Teams%20apps%20bring%20key%20information%2C%20common%20tools%2C,new%20for%20Teams%20or%20integrate%20an%20existing%20app.)
 
+- 
 **/>**  
