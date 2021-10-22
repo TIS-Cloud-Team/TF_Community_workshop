@@ -27,3 +27,5 @@ Include information such as focus topics that will be delivered, how the IP shou
 
 
 **Detailed Description:** 
+
+<IMG  src="https://th.bing.com/th/id/R.5bdf2356bd7bbff99102169c88339ba2?rik=SDR7E3cQHLV5qw&amp;riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_522117.png&amp;ehk=pOVIveS%2f%2ffwoTf8JSUTmL5afPJAihRGEmAUzu9g139Y%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0"  alt="Translated Content"/>
