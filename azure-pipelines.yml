@@ -17,6 +17,8 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 - task: PoliCheck@1
+  displayName: Run PoliCheck on source
   inputs:
     targetType: 'F'
     targetArgument: '$(Build.SourcesDirectory)'
+  continueOnError: true
