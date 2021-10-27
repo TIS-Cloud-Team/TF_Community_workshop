@@ -20,3 +20,10 @@ steps:
   inputs:
     targetType: 'F'
     targetArgument: '$(Build.SourcesDirectory)'
+- task: PublishSecurityAnalysisLogs@3
+  inputs:
+    ArtifactName: 'CodeAnalysisLogs'
+    ArtifactType: 'Container'
+    PublishProcessedResults: true
+    AllTools: true
+    ToolLogsNotFoundAction: 'Standard'
