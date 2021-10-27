@@ -27,3 +27,7 @@ steps:
     PublishProcessedResults: true
     AllTools: true
     ToolLogsNotFoundAction: 'Standard'
+- task: SdtReport@2
+  inputs:
+    GdnExportHtmlFile: true
+    GdnExportAllTools: true
