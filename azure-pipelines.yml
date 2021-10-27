@@ -7,7 +7,7 @@ trigger:
 - main
 
  pool:
-   vmImage: windows-2022
+   vmImage: windows-latest 
 #   vmImage: ubuntu-latest
 
 steps:
