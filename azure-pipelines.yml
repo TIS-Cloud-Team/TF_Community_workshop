@@ -17,3 +17,8 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+- task: PoliCheck@2
+  inputs:
+    targetType: 'F'
+    targetArgument: '$(Build.SourcesDirectory)'
+    result: 'policheck.xml'
