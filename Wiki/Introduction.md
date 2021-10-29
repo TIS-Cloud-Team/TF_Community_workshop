@@ -29,5 +29,3 @@ Include information such as focus topics that will be delivered, how the IP shou
 **Detailed Description:** 
 
 **Badges**
-
-<IMG  src="https://cdn2.iconfinder.com/data/icons/text-4/24/translate-32.png"/> Translation Badge <IMG  src="https://cdn2.iconfinder.com/data/icons/text-4/24/translate-32.png"/> 
