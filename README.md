@@ -10,7 +10,7 @@
 * See Labs directory for step-by-step lab instructions. (will need to be kept updated as new AzureRM plugin versions are released)
 
 # Build and Test
-* Try out all the labs and keep your a separate version of completed solution ready prior to delivery. 
+* Try out all the labs and keep a separate version of completed solution ready prior to delivery. 
 * The above will be needed to show hands-on demos which usually makes up for at least 50% of the delivery.
 
 # Contribute
