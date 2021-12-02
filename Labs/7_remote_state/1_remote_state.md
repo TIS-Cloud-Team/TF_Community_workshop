@@ -50,16 +50,8 @@ chmod +x storage_setup.sh
 ./storage_setup.sh
 ```
 
-> Note down the storage account details from the output. You can also find this from portal.
 
-#### Create an environment variable for storage access key
-
-```bash
-# Check the output on your terminal from running the shell script for storage key 
-export ARM_ACCESS_KEY=<storage access key>
-```
-
-#### Create a terraform block in `main.tf` to include the backend configuration
+#### Create a terraform block in `main.tf` to include the backend configuration 
 
 > From `contoso/main.tf`, add the following to begining of the file and fill it with your storage account details.
 
