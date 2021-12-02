@@ -37,7 +37,6 @@ az storage container create --name $CONTAINER_NAME --account-name $STORAGE_ACCOU
 
 echo "storage_account_name: $STORAGE_ACCOUNT_NAME"
 echo "container_name: $CONTAINER_NAME"
-echo "access_key: $ACCOUNT_KEY"
 ```
 
 ```
