@@ -6,6 +6,7 @@
     * Unless subscription passes can be arranged 
 
 # Getting Started
+* Have a look at Delivery Guide 
 * 00_Workshop_Introduction.pptx (in PPTs) contain information on environment setup
 * See Labs directory for step-by-step lab instructions. (will need to be kept updated as new AzureRM plugin versions are released)
 
