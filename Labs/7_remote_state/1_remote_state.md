@@ -53,7 +53,7 @@ chmod +x storage_setup.sh
 
 #### Create a terraform block in `main.tf` to include the backend configuration 
 
-> From `contoso/main.tf`, add the following to begining of the file and fill it with your storage account details.
+> From `contoso/main.tf`, add the following to beginning of the file and fill it with your storage account details.
 
 ```terraform
 terraform {
@@ -66,7 +66,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "=2.46.0"
+      version = "~>3.34.0"
     }
   }
 }
@@ -123,7 +123,7 @@ Feel free to carry on with below ones if you have finished the labs ahead of tim
 
 #### Locking 
 
-If you are interested, open two terminals and try doing a `terraform apply` on each (don't proceed with approval). You should find that the second one will fail because the first apply stil has the `tfstate` file locked.
+If you are interested, open two terminals and try doing a `terraform apply` on each (don't proceed with approval). You should find that the second one will fail because the first apply still has the `tfstate` file locked.
 
 * Take a look at locking here
     *  https://www.terraform.io/docs/state/locking.html
@@ -134,17 +134,17 @@ At the moment, we have the storage account name hard-coded in `main.tf`
 
 We can use `partial config` feature during initialization stage to pass this value.
 
+To avoid any issues, destroy the existing environment and remove any plugins.
+```bash
+cd ~/clouddrive/tfw/contoso
+terraform destroy
+rm -rf .terraform/
+
 **Remove below line of code from `main.tf`**
 
 ```terraform
 storage_account_name  = "<your_sg_account>"
 ```
-
-To avoid any issues, destory the existing environment and remove any plugins.
-```bash
-cd ~/clouddrive/tfw/contoso
-terraform destroy
-rm -rf .terraform/
 
 # Now init with partial config (pass in your storage account name)
 terraform init -backend-config="storage_account_name=your-sg-account"

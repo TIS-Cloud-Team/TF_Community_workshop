@@ -91,6 +91,13 @@ This workshop focuses primarily on how to use Terraform efficiently to provision
 * Best Practices for maintaining states and reducing provisioning times
 * Terraform Workspaces 
 
+**Module 6: Continuous Delivery**
+* CLI Driven workflows
+* Day 1 and Day 2 workflows
+* Day N workflows
+* Authentication options for AzureRM and AzureAD providers
+* OIDC Authentication with GitHub Actions
+
 ## Content
 
 The presentations are in the folder [PPTs](https://dev.azure.com/CEandS/_git/Introduction%20to%20%20Infrastructure%20as%20Code%20using%20Terraform?path=/PPTs&version=GBmain)

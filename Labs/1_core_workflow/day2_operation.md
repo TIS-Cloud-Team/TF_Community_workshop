@@ -13,7 +13,7 @@
 Open `main.tf` on the editor and add a `tag` by making the below change within `contoso_rg` resource
 
 ```terraform
-tag = {
+tags = {
     "cost_center" = "contoso research"
 }
 ```

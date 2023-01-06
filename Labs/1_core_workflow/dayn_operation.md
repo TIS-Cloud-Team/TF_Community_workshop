@@ -9,6 +9,8 @@ Run a plan to see what will be destroyed.
 ```bash
 # make sure you are running this from the contoso folder
 terraform plan -destroy
+
+
 ```
 
 **destroy**
@@ -19,6 +21,9 @@ If the plan looks as expected, go ahead and remove the resource group that we cr
 
 ```bash
 terraform destroy
+
+# this is the equivalent of command
+terraform apply -destroy
 ```
 
 You should see a terminal output stating what will be destroyed.

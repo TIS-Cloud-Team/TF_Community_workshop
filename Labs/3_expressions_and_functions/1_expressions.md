@@ -65,8 +65,16 @@ _To become familar HCL syntax, please take your time to type in the code wheneve
 
 ```terraform
 # main.tf
+terraform {
+    required_providers {
+        azurerm = {
+            source  = "hashicorp/azurerm"
+            version = "~>3.34.0"
+        }
+    }
+}
+
 provider "azurerm" {
-    version = "~>2.13.0"
     features {}    
 }
 

@@ -53,6 +53,25 @@ contoso_dev_rg_id = /subscriptions/.../resourceGroups/contoso_dev_rg
 contoso_rg_id = <sensitive>
 ```
 
+#### Outputs via CLI
+
+The following commands can be used to get outputs from state and values of sensitive outputs.
+
+```bash
+# Show all outputs
+terraform output
+```
+
+```bash
+# Show a specific output in json format
+terraform output -json contoso_rg_id
+```
+
+```bash
+# Show a specific output in raw format
+terraform output -raw contoso_rg_id
+```
+
 #### Commit your code and clean up the infrastructure with `terraform destroy`
 
 ----

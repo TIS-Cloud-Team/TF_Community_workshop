@@ -82,8 +82,16 @@ Now, call the above module from `main.tf` in `contoso` folder using module block
 # contoso/main.tf (calling module)
 
 # main.tf from calling module 
+terraform {
+    required_providers {
+        azurerm = {
+            source  = "hashicorp/azurerm"
+            version = "~>3.34.0"
+        }
+    }
+}
+
 provider "azurerm" {
-    version = "~>2.13.0"
     features {}    
 }
 
@@ -131,7 +139,7 @@ variable tags {
 > variables.tf for calling module now only requires `vnets` and `rg_names`
 
 ```terraform
-# constoso/variables.tf
+# contoso/variables.tf
 variable rg_names {
     type = list(string)    
 }

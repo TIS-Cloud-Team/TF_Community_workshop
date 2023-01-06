@@ -22,6 +22,8 @@ cd ~/clouddrive/tfw/contoso
 
 ## Day 1 operation (Create)
 
+> NOTE: For the following commands you'll need to be authenticated to Azure and connected to the subscription you want to deploy to. HINT: Use `az login` and `az account set --subscription mysubscription`
+
 **1. Write**
 
 * Open `main.tf` on the editor and paste in the below code. 
@@ -33,8 +35,8 @@ cd ~/clouddrive/tfw/contoso
 terraform {
     required_providers {
         azurerm = {
-        source  = "hashicorp/azurerm"
-        version = "2.77.0"
+            source  = "hashicorp/azurerm"
+            version = "~>3.34.0"
         }
     }
 }

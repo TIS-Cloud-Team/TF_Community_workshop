@@ -84,7 +84,7 @@ Error: A resource with the ID "/subscriptions/.../resourceGroups/temp_rg" alread
 ---
 ```
 
-This is because terrform wasn't aware of this resource until it tried an apply. 
+This is because terraform wasn't aware of this resource until it tried an apply. 
 
 #### Import
 
@@ -143,8 +143,16 @@ azurerm_resource_group.rg: Refreshing state... [id=/subscriptions/.../resourceGr
 main.tf should just look just like below. (as it was before we started this lab)
 ```
 # main.tf
+terraform {
+    required_providers {
+        azurerm = {
+            source  = "hashicorp/azurerm"
+            version = "~>3.34.0"
+        }
+    }
+}
+
 provider "azurerm" {
-    version = "~>2.13.0"
     features {}    
 }
 

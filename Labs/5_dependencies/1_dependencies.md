@@ -53,7 +53,7 @@ Observe the usage of `lookup` function here as well as implicit dependency usage
 
 ```terraform
 # main.tf
-resource "azurerm_virtual_network" "vnet" {
+resource "azurerm_virtual_network" "vnets" {
     count               = length(var.rg_names)
     name                = lookup(var.vnets[count.index], "name")
     address_space       = [lookup(var.vnets[count.index], "address")]
@@ -74,7 +74,7 @@ When you're ready run a plan and then apply
 
 #### Verify
 
-Have a look through the resource groups and ensure that a resource group has been created in each of them.
+Have a look through the resource groups and ensure that a vnet resource has been created in each of them.
 
 #### Clean up the infrastructure
 
