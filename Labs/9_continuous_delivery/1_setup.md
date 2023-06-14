@@ -38,6 +38,12 @@ prefix = "JFH-20221208"
 github_organisation_target = "jared-holgate-microsoft-demos"
 ```
 
+> NOTE if you wish to use the Azure Active Directory Service Principal approach rather than a User Assigned Managed Identity, then also add this setting to `terraform.tfvars`:
+
+```
+use_managed_identity = false
+```
+
 ### Apply the Terraform
 
 1. Open the Visual Studio Code Terminal and navigate the `terraform-oidc-config` folder.

@@ -1,6 +1,20 @@
 ### Check what has been created
 
-#### Service Principal
+#### Managed Identity or Service Principal
+
+When deploying the example you will have selected to use the default Managed Identity approach or the Service Principal approach choose the relevant option below.
+
+##### Option 1: Managed Identity
+
+1. Login to the [Azure Portal](https://portal.azure.com) with your Global Administrator account.
+1. Navigate to your Subscription and select `Resource groups`.
+1. Click the resource group post-fixed `dev` (e.g. `JFH-20221208-dev`).
+1. Look for a `Managed Identity` resource and click it.
+1. Click on `Federated Credentials`.
+1. There should only be one credential in the list, select that and take a look at the configuration.
+1. Examine the `Subject identifier` and ensure you understand how it is built up.
+
+##### Option 2: Service Principal
 
 1. Login to the [Azure Portal](https://portal.azure.com) with your Global Administrator account.
 1. Navigate to `Azure Active Directory` and select `App registrations`.
