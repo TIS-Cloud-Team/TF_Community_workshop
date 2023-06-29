@@ -29,7 +29,7 @@ When deploying the example you will have selected to use the default Managed Ide
 1. You should see four newly created resource groups.
 1. Click the resource group post-fixed `dev` (e.g. `JFH-20221208-dev`).
 1. Select `Access control (IAM)` and select `Role assignments`.
-1. Under the `Contributor` role, you should see that your `dev` Service Principal has been granted access directly to the resource group.
+1. Under the `Contributor` role, you should see that your `dev` Service Principal or Managed Identity has been granted access directly to the resource group.
 
 #### State storage account
 
@@ -39,7 +39,7 @@ When deploying the example you will have selected to use the default Managed Ide
 1. Select `Containers`. You should see a `dev`, `test` and `prod` container.
 1. Select the `dev` container.
 1. Click `Access Control (IAM)` and select `Role assignments`.
-1. Scroll down to `Storage Blob Data Contributor`. You should see your `dev` Service Principal has been assigned that role.
+1. Scroll down to `Storage Blob Data Contributor`. You should see your `dev` Service Principal or Managed Identity has been assigned that role.
 
 #### GitHub environments
 
