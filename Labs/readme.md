@@ -30,6 +30,5 @@
 - [Workspaces](8_bonus_tasks_and_useful_links/1_bonus_tasks_and_links.md)
 
 ## Lab 9: Continuous Delivery
-- [Setup](9_continuous_delivery/1_setup.md)
-- [Validate and Run](9_continuous_delivery/2_validate_and_run.md)
-- [Pull Request](9_continuous_delivery/3_pull_request.md)
+- [Option 1: GitHub](9_continuous_delivery/1_github.md)
+- [Option 2: Azure DevOps](9_continuous_delivery/2_azure_devops.md)
